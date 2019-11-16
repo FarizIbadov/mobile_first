@@ -80,6 +80,7 @@ nav #navbar #logo a {
 }
 
 nav #navbar #logo a img {
+  height: 60px;
   width: 75px;
 }
 
