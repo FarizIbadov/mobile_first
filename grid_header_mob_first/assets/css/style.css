@@ -116,7 +116,7 @@ nav #navbar #nav-list .nav-link a {
 
 nav #navbar .active {
   height: 160px !important;
-  padding-top: 7px !important;
+  padding: 7px 5px !important;
 }
 
 nav #navbar .active .nav-link a {
