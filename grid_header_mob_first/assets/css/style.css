@@ -102,7 +102,7 @@ nav #navbar #nav-list {
       -ms-flex-direction: column;
           flex-direction: column;
   -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  transition: height padding 0.5s;
 }
 
 nav #navbar #nav-list .nav-link a {
