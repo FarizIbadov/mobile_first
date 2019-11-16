@@ -1,0 +1,70 @@
+nav{
+    padding:2px 0;
+    width:100vw;
+    background: $main;
+    position: relative;
+
+    #navbar{
+        padding: 0 10px;
+        display: grid; 
+        grid-auto-flow: column;
+        grid-template-areas: 
+            'logo burger burger'
+            'navs navs navs';
+        
+
+        #logo{
+            grid-area: logo;
+
+            display: flex;
+            justify-content: start;
+            align-items: center;
+
+            a{
+                display: flex;
+
+                img{
+                    width:75px;
+                }
+            }
+        }
+
+        #nav-list{
+            grid-area: navs;
+            overflow: hidden;
+            height:0px;
+            z-index: 0;
+            padding: 0px 5px;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.5s;
+
+            .nav-link{
+                
+                a{
+                    opacity: 0;
+                    text-decoration: none;
+                    color:$add;
+                    font-size: 1.3em;
+                    transition: opacity 0.5s;
+                }
+            }
+            
+        }
+
+        .active{
+            height:150px !important;
+            padding-top:7px !important;
+
+            .nav-link{
+                a{
+                    opacity: 1 !important;
+                    transition: opacity 3s !important;
+                }
+            }
+        }
+
+
+    }
+}
