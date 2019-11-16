@@ -101,22 +101,22 @@ nav #navbar #nav-list {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-transition: all 0.5s;
-  transition: height padding 0.5s;
+  -webkit-transition: padding 0.5s,height 0.5s;
+  transition: padding 0.5s,height 0.5s;
 }
 
 nav #navbar #nav-list .nav-link a {
   opacity: 0;
   text-decoration: none;
   color: #272727;
-  font-size: 1.1em;
+  font-size: 1.3em;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
 }
 
 nav #navbar .active {
-  height: 160px !important;
-  padding: 7px 5px !important;
+  height: 150px !important;
+  padding-top: 7px !important;
 }
 
 nav #navbar .active .nav-link a {
